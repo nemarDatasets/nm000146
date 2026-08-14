@@ -1,0 +1,129 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Weibo Yi": {},
+    "Shuang Qiu": {},
+    "Kun Wang": {},
+    "Hongzhi Qi": {},
+    "Lixin Zhang": {},
+    "Peng Zhou": {},
+    "Feng He": {},
+    "Dong Ming": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1371/journal.pone.0114853",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.7910/DVN/27306",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000146",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000146",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "National Natural Science Foundation of China",
+      "award_number": "81222021"
+    },
+    {
+      "funder_name": "National Natural Science Foundation of China",
+      "award_number": "61172008"
+    },
+    {
+      "funder_name": "National Natural Science Foundation of China",
+      "award_number": "81171423"
+    },
+    {
+      "funder_name": "National Natural Science Foundation of China",
+      "award_number": "51377120"
+    },
+    {
+      "funder_name": "National Natural Science Foundation of China",
+      "award_number": "31271062"
+    },
+    {
+      "funder_name": "Ministry of Science and Technology of China",
+      "award_number": "2012BAI34B02",
+      "award_title": "National Key Technology R&D Program"
+    },
+    {
+      "funder_name": "Ministry of Education of China",
+      "award_number": "NCET-10-0618",
+      "award_title": "Program for New Century Excellent Talents in University"
+    },
+    {
+      "funder_name": "Natural Science Foundation of Tianjin",
+      "award_number": "13JCQNJC13900"
+    }
+  ],
+  "title": "Motor Imagery dataset from Weibo et al 2014",
+  "license": "CC0-1.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "6.1 GB (23 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".html",
+    ".json",
+    ".mat",
+    ".md",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "This dataset comprises EEG recordings from 10 healthy participants performing simple and compound limb motor imagery tasks. Participants executed kinesthetic motor imagery of left hand, right hand, feet, both hands, and combined hand-foot movements across 560 trials recorded at 200 Hz using 60 EEG channels. The dataset includes preprocessed data with bandpass filtering and analysis of oscillatory patterns including event-related desynchronization (ERD), event-related synchronization (ERS), and effective connectivity measures.",
+  "methods_description": "EEG data were acquired using a Neuroscan SynAmps2 system at 200 Hz sampling rate from 60 channels arranged in the standard 1005 montage with nose reference and prefrontal ground. Online bandpass filtering (0.5-100 Hz) and 50 Hz notch filtering were applied. Participants performed motor imagery tasks cued by visual text stimuli with 1 second cue duration followed by 4 seconds of imagery. Data were preprocessed with offline bandpass filtering (0.5-50 Hz) and downsampled to 200 Hz.",
+  "keywords": [
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "event-related desynchronization"
+    },
+    {
+      "term": "brain-computer interfaces"
+    },
+    {
+      "term": "kinesthetic imagery"
+    },
+    {
+      "term": "oscillatory patterns"
+    },
+    {
+      "term": "effective connectivity"
+    }
+  ],
+  "source_hash": "c1c3f6d0268545db2e36e12475503a025fff6c92baaba1816eda6cbdf255b5b9"
+}
