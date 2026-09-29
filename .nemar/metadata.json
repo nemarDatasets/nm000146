@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Motor Imagery dataset from Weibo et al 2014",
-  "description": "This dataset contains EEG recordings from 10 healthy, right-handed participants performing simple and compound limb motor imagery tasks, including left hand, right hand, feet, both hands, and combined hand-foot imagery, as well as rest. Data were collected at Tianjin University using a 60-channel EEG system to investigate EEG oscillatory patterns and cognitive processes underlying motor imagery, including event-related desynchronization/synchronization (ERD/ERS) and effective connectivity. The dataset is a BIDS-formatted derivative of the original data published by Weibo et al. (2014), converted using the MOABB toolbox.",
-  "methods_description": "EEG data were recorded using a Neuroscan SynAmps2 system with 60 EEG channels (Ag/AgCl electrodes, standard_1005 montage), plus 2 EOG and 2 misc channels, referenced to the nose with ground at the prefrontal lobe. Sampling rate was 200 Hz after downsampling, with online bandpass filtering (0.5-100 Hz) and 50 Hz notch filter. Participants performed kinesthetic motor imagery of left hand, right hand, both hands, feet, left hand with right foot, and right hand with left foot, cued via text visual stimuli, in a synchronous offline paradigm across 8 sections of 60 trials each plus one rest section of 80 trials (560 trials total). Preprocessing included bandpass filtering (0.5-50 Hz) and downsampling to 200 Hz.",
+  "description": "EEG recordings from 10 healthy, BCI-naive participants performing simple limb motor imagery (left hand, right hand, feet) and compound limb motor imagery (both hands, left hand with right foot, right hand with left foot), plus a rest condition. Data were recorded with a 60-channel Neuroscan system and preprocessed by bandpass filtering and downsampling to 200 Hz. The dataset supports study of oscillatory patterns (ERD/ERS), cognitive processes and effective connectivity during motor imagery, and is distributed in BIDS format via MOABB.",
+  "methods_description": "EEG was recorded with a Neuroscan SynAmps2 amplifier using 60 Ag/AgCl electrodes plus 2 EOG channels, nose reference and prefrontal ground, with online bandpass 0.5-100 Hz and 50 Hz notch. Participants performed kinesthetic motor imagery following visual text cues (1 s cue, 4 s imagery, 8 s trials) across 8 sections of 60 trials each covering 6 MI tasks, plus one 80-trial rest section. Data were bandpass filtered at 0.5-50 Hz and downsampled to 200 Hz.",
   "license": "CC0-1.0",
   "dataset_type": "derivative",
   "authors": {
@@ -27,19 +27,13 @@
       "term": "compound limb motor imagery"
     },
     {
-      "term": "EEG oscillatory patterns"
-    },
-    {
-      "term": "cognitive process"
+      "term": "event-related desynchronization"
     },
     {
       "term": "effective connectivity"
     },
     {
-      "term": "event-related desynchronization"
-    },
-    {
-      "term": "event-related synchronization"
+      "term": "brain-computer interface"
     }
   ],
   "related_identifiers": [
@@ -51,7 +45,7 @@
     {
       "identifier": "10.7910/DVN/27306",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDerivedFrom"
     },
     {
       "identifier": "https://github.com/nemarDatasets/nm000146",
@@ -98,7 +92,7 @@
     "eeg"
   ],
   "sizes": [
-    "6.1 GB (23 files)"
+    "5.64 GB (23 files)"
   ],
   "formats": [
     ".bdf",
