@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Motor Imagery dataset from Weibo et al 2014",
-  "description": "EEG recordings from 10 healthy, BCI-naive participants performing simple limb motor imagery (left hand, right hand, feet) and compound limb motor imagery (both hands, left hand with right foot, right hand with left foot), plus a rest condition. Data were recorded with a 60-channel Neuroscan system and preprocessed by bandpass filtering and downsampling to 200 Hz. The dataset supports study of oscillatory patterns (ERD/ERS), cognitive processes and effective connectivity during motor imagery, and is distributed in BIDS format via MOABB.",
-  "methods_description": "EEG was recorded with a Neuroscan SynAmps2 amplifier using 60 Ag/AgCl electrodes plus 2 EOG channels, nose reference and prefrontal ground, with online bandpass 0.5-100 Hz and 50 Hz notch. Participants performed kinesthetic motor imagery following visual text cues (1 s cue, 4 s imagery, 8 s trials) across 8 sections of 60 trials each covering 6 MI tasks, plus one 80-trial rest section. Data were bandpass filtered at 0.5-50 Hz and downsampled to 200 Hz.",
+  "description": "EEG recordings from 10 healthy, BCI-naive participants performing simple limb motor imagery (left hand, right hand, feet) and compound limb motor imagery (both hands, left hand with right foot, right hand with left foot), plus a rest condition. Data were recorded with a 60-channel Neuroscan SynAmps2 system and preprocessed (bandpass filtered and downsampled to 200 Hz). The dataset supports study of EEG oscillatory patterns (ERD/ERS), cognitive processes and effective connectivity during motor imagery, and is distributed in BIDS format via MOABB.",
+  "methods_description": "Participants performed kinesthetic motor imagery in response to visual text cues (1 s cue, 4 s imagery, 8 s trials) across 560 trials in multiple sections. EEG was recorded from 60 channels plus 2 EOG channels with a Neuroscan SynAmps2 amplifier (nose reference, 0.5-100 Hz online bandpass, 50 Hz notch). Data were bandpass filtered at 0.5-50 Hz and downsampled to 200 Hz.",
   "license": "CC0-1.0",
   "dataset_type": "derivative",
   "authors": {
@@ -71,7 +71,23 @@
   "funding_references": [
     {
       "funder_name": "National Natural Science Foundation of China",
-      "award_number": "81222021, 61172008, 81171423, 51377120, 31271062"
+      "award_number": "81222021"
+    },
+    {
+      "funder_name": "National Natural Science Foundation of China",
+      "award_number": "61172008"
+    },
+    {
+      "funder_name": "National Natural Science Foundation of China",
+      "award_number": "81171423"
+    },
+    {
+      "funder_name": "National Natural Science Foundation of China",
+      "award_number": "51377120"
+    },
+    {
+      "funder_name": "National Natural Science Foundation of China",
+      "award_number": "31271062"
     },
     {
       "funder_name": "National Key Technology R&D Program of the Ministry of Science and Technology of China",
@@ -104,5 +120,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "a4ec0ceb3680f404c68b1f932f639b5f91d74c3b561d63b58299505b132e9009"
+  "source_hash": "ddbd7c042862efdb874ed4facb6d44a2fe81dab4b0d0f571848da57a951f91e0"
 }
